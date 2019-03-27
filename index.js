@@ -17,6 +17,7 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 // adding a kitten to the end of the kittens array
+// while leaving the array unchanged
 function appendKitten(name) {
   return [...kittens, name];
 }
