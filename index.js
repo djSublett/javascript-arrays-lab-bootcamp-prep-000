@@ -31,6 +31,8 @@ function removeLastKitten(name) {
   return kittens.slice(0, kittens.length - 1)
 }
 
+// remove the first kitten in the array 
+// and leave the array unchanged
 function removeFirstKitten(name) {
   return kittens.slice(1)
 }
