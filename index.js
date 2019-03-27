@@ -27,12 +27,14 @@ function prependKitten(name) {
   return [name, ...kittens];
 }
 
+// remove the last kitten in the array
+// while returning the new array
 function removeLastKitten(name) {
   return kittens.slice(0, kittens.length - 1)
 }
 
 // remove the first kitten in the array 
-// and leave the array unchanged
+// and returning a new array
 function removeFirstKitten(name) {
   return kittens.slice(1)
 }
