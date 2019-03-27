@@ -21,6 +21,7 @@ function appendKitten(name) {
   return [...kittens, name];
 }
 
+//adding a kitten to the beginning of the array
 function prependKitten(name) {
   return [name, ...kittens];
 }
